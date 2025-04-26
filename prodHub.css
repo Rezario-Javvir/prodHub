@@ -201,3 +201,12 @@ svg{
     flex-direction: column;
     text-align: center;
 }
+.additional{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: pop;
+    color: var(--color-accent);
+}
