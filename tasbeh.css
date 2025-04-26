@@ -1,6 +1,6 @@
 @font-face {
     font-family: pop;
-    src: url(/fonts/Poppins-Medium.ttf);
+    src: url(Poppins-Medium.ttf);
 }
 :root{
     --color-bg:#141923;
