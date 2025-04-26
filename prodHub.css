@@ -170,8 +170,15 @@ svg{
     font-family: popB;
     font-weight: bolder;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:600px){
     nav ul li a{
+        font-size: smaller;
+    }
+    .header h1{
+        font-size:xx-large;
+    }
+    .header p{
+        width: 100%;
         font-size: smaller;
     }
     .choosing .lies li{
