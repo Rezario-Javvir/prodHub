@@ -1,0 +1,57 @@
+@font-face {
+    font-family: pop;
+    src: url(/fonts/Poppins-Medium.ttf);
+}
+:root{
+    --color-bg:#141923;
+    --color-text:#F0F0F5;
+    --color-accent:#BEFF3C;
+    --color-hover:#AAE632;
+    --color-card:#5A5F6E;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: pop;
+    background-color: var(--color-bg);
+    color:var(--color-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    color: var(--color-accent);
+}
+#countLabel{
+    font-size: 10em;
+    text-align: center;
+}
+button{
+    font-size: 1.5em;
+    padding: 5px 10px;
+    background-color:var(--color-accent);
+    font-family: pop;
+    border: var(--color-hover) 3px outset;
+    cursor: pointer;
+}
+button:hover{
+    transition:0.25s ease;
+    background-color: var(--color-hover);
+}
+a{
+    margin-top: 15px;
+    color: var(--color-accent);
+    border: 3px solid var(--color-accent);
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+a:hover{
+    transition: 400ms ease;
+    background-color: var(--color-accent);
+    color: var(--color-bg);
+}
