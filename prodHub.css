@@ -209,4 +209,5 @@ svg{
     justify-content: center;
     font-family: pop;
     color: var(--color-accent);
+    text-align:center;
 }
