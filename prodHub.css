@@ -18,6 +18,9 @@
     font-family: popB;
     src: url(Poppins-Bold.ttf);
 }
+html{
+        scroll-behavior: smooth;
+        }
 body{
     background-color: var(--color-bg);
 }
