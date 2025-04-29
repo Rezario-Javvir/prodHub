@@ -175,7 +175,7 @@ svg{
 }
 @media screen and (max-width:600px){
     nav ul li a{
-        font-size: smaller;
+        font-size: x-small;
     }
     .header h1{
         font-size:xx-large;
